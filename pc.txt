@@ -1,0 +1,54 @@
+site:
+    back end: php(laravel) ou node,js(com express)
+    front-end: javascript(com react, angular ou vue.js)
+    banco de dados: mysql, postgresql ou mongodb
+    hospedagem: aws, heroku, digitalocean
+    framework: django, ruby on rails, express
+    segurança: oauth, jwt
+    pagamentos: gateways(stripe, paypal)
+    api: geolocalização
+    responsividade: bootstrap ou tailwindcss
+    SEO
+    monitoramento e analise: google analytics
+    teste
+
+app:
+    dev nativo:
+        ios: swift
+        android: kotlin/java
+    dev cross-platform: js/typescript para react native, dart para flutter ou c# para xamarin
+    ide nativo:
+        ios: xcode
+        android: android studio
+    ide cross-platform: vscode, intelij idea ou ambiente recomendado pelo framework
+    framework: react native, flutter ou xamarin
+    banco de dados: sqlite, realm
+    api para comunicaçao com o back end: implementar chamadas dde api usando http ou websocket
+    autenticaçao:
+    armazenamento em nuvem: aws s3, firebase  storage ou google cloud storage
+    push notifications: firebase cloud messaging (fcm) ou apple push notification (apns)
+    hospedagem do backend: aws, heroku e firebase
+    teste
+
+    Backend Unificado:
+    Desenvolva um backend que sirva tanto o site quanto o aplicativo móvel. O backend gerencia o armazenamento de dados, lida com as solicitações de API, e garante a consistência das informações.
+    
+    API RESTful:
+    Exponha endpoints de API RESTful no seu backend para que tanto o site quanto o aplicativo possam interagir com os dados de maneira padronizada.
+    Sincronização de Dados em Tempo Real:
+    Utilize tecnologias ou serviços que permitam a sincronização em tempo real dos dados entre o site e o aplicativo. Isso pode ser alcançado com WebSockets, Firebase Realtime Database ou outras soluções similares.
+    
+    Webhooks:
+    Considere o uso de webhooks para notificar o aplicativo ou o site quando ocorrerem eventos relevantes, como uma nova postagem de venda. Isso ajuda a manter os dados atualizados em ambas as plataformas.
+    
+    Token de Autenticação Único:
+    Implemente um sistema de autenticação centralizado para garantir que os usuários autenticados no site também estejam autenticados no aplicativo e vice-versa.
+    
+    Sistema de Filas e Background Jobs:
+    Para operações que podem levar algum tempo, como processamento de imagens ou notificações, use sistemas de filas e jobs em segundo plano para não bloquear a interface do usuário.
+    
+    Cache:
+    Utilize técnicas de cache para otimizar o desempenho e reduzir a carga no backend. Isso é especialmente importante para aplicativos móveis, onde a largura de banda e a latência podem ser fatores limitantes.
+    
+    Monitoramento e Logs:
+    Implemente ferramentas de monitoramento e logs para rastrear problemas rapidamente e garantir a integridade do sistema.

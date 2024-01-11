@@ -8,6 +8,9 @@ Você tera 3 variaveis . sesndo elas:
 imprima no console o valor que será gasto de combusstivel para realizar esta viagem.*/
 
 const fuel = 5.79
-const kmpl = 10 /*Km por litro*/
-const dist = 100 /*Distancia*/
+const kmpl = 13 /*Km por litro*/
+const dist = 1700 /*Distancia*/
 
+var calc = (dist / kmpl) * fuel
+
+console.log(calc.toFixed(2))
