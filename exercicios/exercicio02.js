@@ -1,5 +1,5 @@
-var nome = 'ildelandio';
-var peso = 75;
+var nome = 'tico';
+var peso = 100;
 var altura = 1.70;
 
 var imc = peso / (altura * altura);
